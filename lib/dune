@@ -1,0 +1,4 @@
+(library
+ (name aoc)
+ (public_name aoc)
+ (modules input))
