@@ -8,6 +8,3 @@ try
 with End_of_file ->
   close_in chan;
   List.rev !lines ;;
-
-let split_string_by_char str =
-  String.split_on_char ' ' str
